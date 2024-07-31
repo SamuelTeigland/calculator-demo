@@ -1,0 +1,85 @@
+.calculator-body {
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 13rem;
+    background: grey;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.calculator-top {
+    width: 11rem;
+    background: white;
+    padding: .5rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    overflow-x: hidden;
+    font-size: 1.5rem;
+}
+
+.calculator-display {
+    text-align: right;
+}
+
+.calculator-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: rgb(209, 209, 209);
+    width: 12rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.operator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+    gap: .25rem;
+}
+
+.operator-btn, .number-btn {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: .5s;
+    border-radius: .25rem;
+}
+
+.operator-btn:hover, .number-btn:hover {
+    opacity: 75%;
+}
+
+.number-btn {
+    background: white;
+    border: none;
+}
+
+.operator-btn {
+    background: rgb(136, 136, 220);
+    border: none;
+}
